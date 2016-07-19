@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  descriptionwork: Cambio rueda 1
+  user: one
+
+two:
+  descriptionwork: Cambio rueda 2
+  user: two
+
+three:
+  descriptionwork: Cambio rueda 3
+  user: one
