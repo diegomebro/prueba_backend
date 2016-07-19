@@ -5,9 +5,12 @@ class InventoryTest < ActiveSupport::TestCase
   #   assert true
   # end
   def setup
-  	@serialnumber = serialnumbers(:one)
+  	@inventory = inventories(:one)
+
   end
   test "This serial numer is unique" do
-  	assert_equal @serialnumber.category, false
+  	assert_equal @inventory.serialnumber, false
   end
+
+
 end
