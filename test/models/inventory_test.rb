@@ -12,5 +12,7 @@ class InventoryTest < ActiveSupport::TestCase
   	assert_equal @inventory.serialnumber, false
   end
 
+  
+
 
 end
